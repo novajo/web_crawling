@@ -22,7 +22,7 @@ for se in sel.xpath("//div[contains(@class, 'index_toplist')]//div[contains(@id,
     title = se.xpath("text()").extract()[0]
     link = se.xpath("@href").extract()[0]
     # print(str(title)+" http://www.qu.la/paihangbang"+str(link))
-    if title not in list_title:
+    if link not in list_link:
         list_title.append(title)
         list_link.append(link)
 
