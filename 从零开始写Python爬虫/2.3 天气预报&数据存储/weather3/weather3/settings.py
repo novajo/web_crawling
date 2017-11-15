@@ -13,7 +13,7 @@ BOT_NAME = 'weather3'
 
 SPIDER_MODULES = ['weather3.spiders']
 NEWSPIDER_MODULE = 'weather3.spiders'
-ITEM_PIPELINES = {'weather3.pipelines.Weather3Pipeline': 300}
+ITEM_PIPELINES = {'weather3.pipelines.Weather3Pipeline_json': 300}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'weather3 (+http://www.yourdomain.com)'
